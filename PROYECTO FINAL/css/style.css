@@ -1,0 +1,33 @@
+/*
+PROYECTO FINAL - LABERINTO CIRCULAR
+
+JOVEN JIMENEZ ANGEL CRISTIAN
+MARTINEZ RIOS LEONARDO DANIEL
+
+DISEÑO Y ANALISIS DE ALGORITMOS - 1558
+
+10/12/2022
+
+*/
+
+/* Le asignamos un estilo por default para nuestros botones. */
+
+button {
+  background: white;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+/* Le asignamos un estilo para nuestros botones cuando el cursor este sobre el boton. */
+
+button:hover {
+  background: gray;
+}
+
+/* Le asignamos una alineacion a la lista "creditos" y lo posicionamos correctamente en la pantalla. */
+
+.creditos{
+  text-align: center;
+  position: relative;
+  left: -30px;
+}

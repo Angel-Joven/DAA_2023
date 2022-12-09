@@ -1,0 +1,45 @@
+<!-- PROYECTO FINAL - LABERINTO CIRCULAR
+
+JOVEN JIMENEZ ANGEL CRISTIAN
+MARTINEZ RIOS LEONARDO DANIEL
+
+DISEÑO Y ANALISIS DE ALGORITMOS - 1558
+
+10/12/2022
+
+-->
+
+<!DOCTYPE html> <!-- Declaracion  -->
+<html> <!-- Lenguaje interpretado -->
+<head> <!-- Indicamos los metadatos. -->
+    <meta charset="UTF-8"> <!-- Añadimos compatibilidad para caracteres especiales. -->
+    <title>Laberinto Circular</title> <!-- Le asignamos ese titulo el cual aparecera arriba en la pestaña del navegador. -->
+    <link rel="stylesheet" href="css/style.css"> <!-- Importamos nuestro archivo de estilos a nuestra pagina web. -->
+</head> <!-- Cerramos la etiqueta head. -->
+<body> <!-- Generamos nuestro cuerpo de la pagina web. -->
+  <div class="laberinto" align="center"> <!-- Creamos nuestra div, la cual va a contener el codigo del laberinto y el titulo. -->
+    <h1>Laberinto Circular</h1> <!-- Generamos un titulo para nuestra pagina web. -->
+    <canvas style="width: 500px; height: 500px;"></canvas> <!-- Creamos nuestro canvas, la cual va a servir para que se pueda renderizar nuestro laberinto. -->
+  </div> <!-- Cerramos nuestra div. -->
+
+  <div align="center"> <!-- Creamos nuestra div, la cual va a contener el codigo de los botones de crear y resolver el laberinto. -->
+    <button class="crearLaberinto">Crear Laberinto</button>
+    <button class="resolverLaberinto">Resolver Laberinto</button>
+  </div> <!-- Cerramos nuestra div. -->
+  <script src="js/cierre_convexo.js"></script> <!-- Importamos nuestro javascript. -->
+  
+  <div align="center"> <!-- Creamos nuestra div, la cual va a contener informacion acerca del laberinto. -->
+    <h1>- Presiona F5 para generar un nuevo laberinto. -</h1>
+    <h2>- El boton "crear laberinto" sirve para poder crear aleatoriamente otro laberinto pero sin perder el diseño actual. -</h2>
+  </div>
+
+  <div align="center"> <!-- Creamos nuestra div, la cual va a contener los creditos de las personas que crearon el laberinto en forma de una lista. -->
+    <h3><br>Creado por: </h3> 
+    <OL class="creditos">
+      <ul><strong>JOVEN JIMENEZ ANGEL CRISTIAN</strong></ul>
+      <ul><strong><br>MARTINEZ RIOS LEONARDO DANIEL</strong></ul>
+    </OL> <!-- Cerramos nuestro OL. -->
+  </div> <!-- Cerramos nuestra div. -->
+  
+</body> <!-- Cerramos la etiqueta body. -->
+</html> <!-- Cerramos la etiqueta html. -->
